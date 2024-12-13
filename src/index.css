@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.glow-effect {
+    box-shadow: 0 0 15px rgba(255, 204, 0, 0.7);
+    animation: glow 1.5s ease-in-out infinite alternate;
+  }
+  
+  @keyframes glow {
+    from {
+      box-shadow: 0 0 5px rgba(255, 204, 0, 0.7);
+    }
+    to {
+      box-shadow: 0 0 20px rgba(255, 204, 0, 0.7);
+    }
+  }
+
+  .custom-shadow {
+    box-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.3);
+  }
